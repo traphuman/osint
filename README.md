@@ -46,6 +46,7 @@ ___________________________________________
 GRANT USAGE ON *.* TO 'myownuser'@localhost IDENTIFIED BY 'herethepassword';
 
 
+
 Step 1: Run the script: setup.sh    (Installation Path: /opt/traphuman/osint/)
 ______________________________________________________________________________________         
 
@@ -62,6 +63,7 @@ This script installs and sets up:
 --> Copy all python scripts  under the /opt/traphuman/osint folder.
 
 --> Copy the traphuman-twd.sh daemon to /usr/sbin/
+
 
 
 Step 2: SETUP YOUR OWN TWITTER API
@@ -83,6 +85,7 @@ access_secret
 -->  Edit /opt/traphuman/osint/osint-tw.py and set your own API Keys parameters.
 
 
+
 Step 3: Setup your own Database application parameters
 ___________________________________________
 
@@ -99,6 +102,7 @@ ______________________
 The script will start to collecting phishing tweets.
 
 During the installation a crontab is setup. Review the crontab if you wish adjust it.
+
 
 
 Step 5: Check the Logfile
