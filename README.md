@@ -127,8 +127,8 @@ Now, you could check your logfile: /var/log/traphuman.log for some issue, if eve
 <h3>Crontab installed</h3>
 
 
-05 02 osint-twd.sh stop
+5 2 * * * /usr/sbin/traphuman-twd.sh stop
 
-05 07 osint-twd.sh start
+5 7 * * * /usr/sbin/traphuman-twd.sh start
 
 
