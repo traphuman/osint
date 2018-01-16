@@ -11,7 +11,7 @@ Version 1.0.0
 # DESCRIPTION
 
 
-Collection of python scripts and bash scripts to feed a Database with information related to
+Collection of python  and bash scripts to feed a Database with information related to
 phishing. 
 
 The Drupal module will interact with the TrapHuman OSINT module.
