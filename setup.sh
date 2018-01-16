@@ -56,14 +56,15 @@ setup_osint_module() {
 echo "**********************************************"
 echo "Installing application and dependencies......."
 echo "**********************************************"
-chmod +x $scriptpath/start_traphuman-tw.sh
-chmod +x $scriptpath/traphuman-twd.sh
 cp $scriptpath/requirements.txt /opt/traphuman/osint/
 cp $scriptpath/osint-tw.py /opt/traphuman/osint/
 cp $scriptpath/start_traphuman-tw.sh /opt/traphuman/osint/
 cp $scriptpath/traphuman-twd.sh /usr/sbin/
 cp $scriptpath/README.md /opt/traphuman/osint/
 cp $scriptpath/database_osint.py /opt/traphuman/osint/lib/python*/site-packages/
+chmod +x /opt/traphuman/osint/start_traphuman-tw.sh
+chmod +x /usr/sbin/traphuman-twd.sh
+
 
 cd /opt/traphuman/osint
 ./bin/pip3 install -r ./requirements.txt > /dev/null 2>&1
