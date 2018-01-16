@@ -39,7 +39,6 @@ Debian -> Tested on Debian 9 64bits and python 3.4+
 # INSTALLATION
 
 <h3>Step 0: Choose a user/pass in order to your application is able to connect to OSINT database</h3>
-___________________________________________
 
 --> Edit: DBosint_tw.sql
 
@@ -48,7 +47,8 @@ GRANT USAGE ON *.* TO 'myownuser'@localhost IDENTIFIED BY 'herethepassword';
 
 
 <h3>Step 1: Run the script: setup.sh    (Installation Path: /opt/traphuman/osint/)</h3>
-______________________________________________________________________________________         
+
+Set permissions: chmod +x setup.sh
 
 This script installs and sets up:
 
@@ -67,7 +67,7 @@ This script installs and sets up:
 
 
 <h3>Step 2: SETUP YOUR OWN TWITTER API</h3>
-____________________________________
+
 
 GET your token Tweeter API keys from: https://apps.twitter.com/ - Create New App and fill the
 information.
@@ -87,7 +87,7 @@ access_secret
 
 
 <h3>Step 3: Setup your own Database application parameters</h3>
-___________________________________________
+
 
 --> Edit /opt/traphuman/osint/lib/python/site-package/database_osint.py and set you own Database information. 
 
@@ -95,7 +95,7 @@ ___________________________________________
 
 
 <h3>Step 4: START osint-tw</h3>
-______________________
+
  
 /usr/sbin/traphuman-twd.sh start
 
@@ -106,7 +106,7 @@ During the installation a crontab is setup. Review the crontab if you wish adjus
 
 
 <h3>Step 5: Check the Logfile</h3>
-_________________________
+
 
 /var/log/traphuman.log
 
@@ -119,13 +119,13 @@ Now, you could check your logfile: /var/log/traphuman.log for some issue, if eve
 
 
 <h3>Module installation path</h3>
-________________________
+
 
 /opt/traphuman/osint/
 
 
 <h3>Crontab installed</h3>
-_________________
+
 
 05 02 osint-twd.sh stop
 
