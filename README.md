@@ -39,7 +39,7 @@ TRAPHUMAN - OSINT MODULE INSTALLATION
 Step 1: Run the script: setup.sh    (Installation Path: /opt/traphuman/osint/)
 ______________________________________________________________________________________         
 
-This script installs and setup:
+This script installs and sets up:
 --> All the needs debian and python packages.
 --> A virtual version 3 python environment under /opt/traphuman/osint folder.
 --> The MariaDB Database and create the osint DB and its tables. 
