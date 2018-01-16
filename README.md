@@ -8,7 +8,7 @@
 Version 1.0.0
 
 
-DESCRIPTION
+# DESCRIPTION
 
 
 Collection of python scripts and bash scripts to feed a Database with information related to
@@ -28,7 +28,7 @@ osint-tw.py.
 
 
 
-REQUIREMENTS
+# REQUIREMENTS
 
 
 Debian -> Tested on Debian 9 64bits and python 3.4+
