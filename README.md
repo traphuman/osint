@@ -38,7 +38,7 @@ Debian -> Tested on Debian 9 64bits and python 3.4+
 
 # INSTALLATION
 
-ap>Step 0: Choose a user/pass in order to your application is able to connect to OSINT database
+<p>Step 0: Choose a user/pass in order to your application is able to connect to OSINT database
 ___________________________________________
 
 --> Edit: DBosint_tw.sql
