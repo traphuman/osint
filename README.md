@@ -1,7 +1,7 @@
 
 
 #    TrapHuman - Phishing OSINT MODULE    
-######################################
+
 
 # Authors 
 (@networkseg1) - (@forges82) - traphuman[at]gmail.com
@@ -9,7 +9,7 @@ Version 1.0.0
 
 
 DESCRIPTION
-===========================================
+
 
 Collection of python scripts and bash scripts to feed a Database with information related to
 phishing. 
@@ -29,13 +29,13 @@ osint-tw.py.
 
 
 REQUIREMENTS
-============================================
+
 
 Debian -> Tested on Debian 9 64bits and python 3.4+
 
 
-TRAPHUMAN - OSINT MODULE INSTALLATION
-============================================
+# INSTALLATION
+
 
 Step 1: Run the script: setup.sh    (Installation Path: /opt/traphuman/osint/)
 ______________________________________________________________________________________         
@@ -93,8 +93,8 @@ Now, you could check your logfile: /var/log/traphuman.log for some issue, if eve
      https://stream.twitter.com:443 "POST /1.1/statuses/filter.json?delimited=length HTTP/1.1" 200 None
 
 
-OTHER INFORMATION
-=================
+# OTHER INFORMATION
+
 
 Module installation path
 ________________________
