@@ -38,11 +38,19 @@ Debian -> Tested on Debian 9 64bits and python 3.4+
 
 # INSTALLATION
 
+Step 0: Choose a user/pass in order to your application is able to connect to OSINT database
+___________________________________________
+
+--> Edit: DBosint_tw.sql
+
+GRANT USAGE ON *.* TO 'myownuser'@localhost IDENTIFIED BY 'herethepassword';
+
 
 Step 1: Run the script: setup.sh    (Installation Path: /opt/traphuman/osint/)
 ______________________________________________________________________________________         
 
 This script installs and sets up:
+
 --> All the needs debian and python packages.
 
 --> A virtual version 3 python environment under /opt/traphuman/osint folder.
@@ -51,7 +59,6 @@ This script installs and sets up:
 
 --> A crontab to improve our phishing collecting.
 
-Besides:
 --> Copy all python scripts  under the /opt/traphuman/osint folder.
 
 --> Copy the traphuman-twd.sh daemon to /usr/sbin/
@@ -76,12 +83,11 @@ access_secret
 -->  Edit /opt/traphuman/osint/osint-tw.py and set your own API Keys parameters.
 
 
-Step 3: Setup your own Database parameters
+Step 3: Setup your own Database application parameters
 ___________________________________________
 
 --> Edit /opt/traphuman/osint/lib/python/site-package/database_osint.py and set you own Database information. 
 
-The default parameters will work but we suggest you to use another user/pass data.
 
 
 
